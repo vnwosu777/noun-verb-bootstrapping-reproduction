@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Never commit corpus data (CHILDES / Lyon corpus terms of use) ---
+corrected_corpus/
+connl_corpus/
+connl_corpus.zip
+corrected_corpus.zip
+*.zip
+
+# --- Derived pickles (rebuilt by call_my_corpus.py) ---
+utterances
+voca
+
+# --- Python / run noise ---
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
